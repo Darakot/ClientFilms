@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="670.0" prefWidth="440.0" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <TabPane layoutX="12.0" layoutY="309.0" prefHeight="347.0" prefWidth="411.0" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="Look">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ListView fx:id="lookList" layoutX="1.0" prefHeight="315.0" prefWidth="410.0" />
+                     </children></AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="Favorite">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ListView fx:id="favoriteList" layoutX="1.0" prefHeight="315.0" prefWidth="410.0" />
+                     </children></AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="Watched">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ListView fx:id="watchedList" layoutX="1.0" prefHeight="315.0" prefWidth="410.0" />
+                     </children></AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+      <HBox layoutX="12.0" layoutY="52.0" prefHeight="30.0" prefWidth="411.0">
+         <children>
+            <TextField fx:id="film1" prefHeight="30.0" prefWidth="282.0">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </TextField>
+            <ChoiceBox fx:id="choiceFilm1" prefHeight="30.0" prefWidth="104.0">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ChoiceBox>
+         </children>
+      </HBox>
+      <HBox layoutX="12.0" layoutY="89.0" prefHeight="30.0" prefWidth="411.0">
+         <children>
+            <TextField fx:id="film2" prefHeight="30.0" prefWidth="282.0">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </TextField>
+            <ChoiceBox fx:id="choiceFilm2" prefHeight="30.0" prefWidth="104.0">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ChoiceBox>
+         </children>
+      </HBox>
+      <HBox layoutX="12.0" layoutY="126.0" prefHeight="30.0" prefWidth="411.0">
+         <children>
+            <TextField fx:id="film3" prefHeight="30.0" prefWidth="282.0">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </TextField>
+            <ChoiceBox fx:id="choiceFilm3" prefHeight="30.0" prefWidth="104.0">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ChoiceBox>
+         </children>
+      </HBox>
+      <HBox layoutX="12.0" layoutY="163.0" prefHeight="30.0" prefWidth="411.0">
+         <children>
+            <TextField fx:id="film4" prefHeight="30.0" prefWidth="282.0">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </TextField>
+            <ChoiceBox fx:id="choiceFilm4" prefHeight="30.0" prefWidth="104.0">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ChoiceBox>
+         </children>
+      </HBox>
+      <HBox layoutX="12.0" layoutY="200.0" prefHeight="30.0" prefWidth="411.0">
+         <children>
+            <TextField fx:id="film5" prefHeight="30.0" prefWidth="282.0">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </TextField>
+            <ChoiceBox fx:id="choiceFilm5" prefHeight="30.0" prefWidth="104.0">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ChoiceBox>
+         </children>
+      </HBox>
+      <Button fx:id="getFilms" layoutX="12.0" layoutY="262.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="119.0" text="Get Films" />
+      <Button fx:id="saveList" layoutX="304.0" layoutY="262.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="119.0" text="Save List" />
+      <Label fx:id="labelNickname" layoutX="180.0" layoutY="14.0" text="Nickname" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="EditProfile" layoutX="307.0" layoutY="15.0" mnemonicParsing="false" onAction="#openWinUsrEdit" prefHeight="16.0" prefWidth="119.0" text="EditProfile" />
+      <Button fx:id="loguot" layoutX="12.0" layoutY="15.0" mnemonicParsing="false" onAction="#loguotUser" prefHeight="16.0" prefWidth="119.0" text="logout" />
+    </children>
+</fx:root>
